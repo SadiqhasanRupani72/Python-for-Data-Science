@@ -10,7 +10,7 @@ print(f' The result: {ind}')
 
 sl = int(input(' \n Enter the index number you wish to slice from: '))
 
-slice = word[index:]
+slice = word[sl:]
 
 print(f' The index number that you want to slice is as follows: {slice}')
 
