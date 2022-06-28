@@ -20,4 +20,4 @@ end = int(input(f' Where to end? \n -> '))
 
 slice = word[start:end]
 
-print(f" The result is: {slice}")
+print(f" The result is: {slice} \n")
