@@ -1,4 +1,4 @@
-word = input('\n Enter a sentence: ')
+word = str(input('\n Enter a sentence: '))
 
 print(f'\n Your sentence: {word}')
 

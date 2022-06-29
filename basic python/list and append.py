@@ -7,7 +7,7 @@ n = int(input('\n Enter number of elements: '))  # taking a user-provided elemen
 
 print('\n')
 for i in range(0, n):  # until the desired range is reached
-  element = input(f' Enter element no {i + 1}: ')
+  element = str(input(f' Enter element no {i + 1}: '))
   lst.append(element)
 
 print(f'\nThe normal element lists are: {lst} \n')
@@ -20,7 +20,7 @@ print('\n')
 
 j = 0
 for i in range(0, n):
-   element = [int(input(f' Enter integer element no {i + 1}: ')), input(f' Enter element no {i + 1}: ')]
+   element = [int(input(f' Enter integer element no {i + 1}: ')), str(input(f' Enter element no {i + 1}: '))]
    lst2.append(element)
 
 print(f'\n The nested elements are: {lst2} \n')
