@@ -18,7 +18,6 @@ lst2 = []
 n = int(input('\n Enter number of elements: '))
 print('\n')
 
-j = 0
 for i in range(0, n):
    element = [int(input(f' Enter integer element no {i + 1}: ')), str(input(f' Enter element no {i + 1}: '))]
    lst2.append(element)
