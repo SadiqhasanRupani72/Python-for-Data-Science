@@ -17,4 +17,4 @@ print(f'\n Values of the dictionaries are. \n -> {values}. ')
 
 # Item method: It returns the dictionary Items.
 items = dic.items()
-print((f'\n Items of the dictionaries are. \n -> {items}.  '))
+print((f'\n Items of the dictionaries are. \n -> {items}. \n'))
