@@ -13,3 +13,5 @@ sent = str(input('\n Enter a sentence: '))
 n_count = countDog(sent)
 
 print(f'\n {sent}\n-> In this sentence no of count for the dog is: {n_count} \n')
+
+input(" Enter any key")

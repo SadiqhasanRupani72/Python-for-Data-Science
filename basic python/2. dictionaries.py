@@ -11,3 +11,5 @@ data = int(input('\n What roll number data are you interested in?\n -> '))
 req_data = dic[data]
 
 print(f'\n What you were looking for is available here: \n -> {req_data} \n')
+
+print("Enter any key")
