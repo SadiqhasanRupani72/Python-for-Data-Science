@@ -87,3 +87,33 @@ random_seed = np.random.seed(56)
 random_randint = np.random.randint(90, 100, 10)
 print(f" \n Sample Output will generate: {random_randint}")
 print(f" \n See! Same random numbers!!, by using random.seed: {random_randint}")
+
+# let's create a arange array.
+arange_arr = np.arange(0,26)
+print(f'\n Arange arrays: {arange_arr}')
+
+# reshaping the arange_arr variable in 2-D array.
+reshaped_arr = arange_arr.reshape(13,2)
+
+print(f'\n Reshaped arrays are: \n {reshaped_arr}.\n')
+
+# creating a random arr
+ranarr = np.random.randint(0,101,10)
+# np.random.seed(0)
+print(f"\n Random integers in array format from 0 to 100 is. \n -> {ranarr}")
+
+# creating a variable will stores the maximum value of ranarr variable
+max_arr = ranarr.max()
+# we also can find the location of maximum value doing this,
+loc = ranarr.argmax()
+print(f"\n The maximum number from {ranarr} is \n -> {max_arr} \n and the location of this {max_arr} is in '{loc}th' index")
+
+
+# creating a variable will stores the minimum value of ranarr variable
+min_arr = ranarr.min()
+# we also can find the location of minimum value doing this,
+loc = ranarr.argmin()
+print(f"\n The maximum number from {ranarr} is \n -> {min_arr} \n and the location of this {min_arr} is in '{loc}th' index")
+
+data_type = ranarr.dtype
+print(f"\n The data type of this {ranarr} array is '{data_type}'.")
