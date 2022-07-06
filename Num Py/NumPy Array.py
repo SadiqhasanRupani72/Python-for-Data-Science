@@ -57,3 +57,33 @@ np_ones = np.ones((5,3))  # This will create a 2D array.
 '''
 
 print(f'\n 2D array of ones: \n {np_ones}')
+
+np_eye = np.eye(5)  # five by five rows and columns.
+print(f"\n The identity matrix is given below: \n {np_eye}")
+
+one_d_rand = np.random.rand(5)
+print(f"\n One dimensional array of random number between 0 to 1 elements are: \n {one_d_rand} \n")
+
+two_d_rand = np.random.rand(5,2)  # Five cols and two rows.
+print(f"\n Two dimnesional array of random number between 0 to 1 elements are: \n {two_d_rand} \n")
+
+randn_array = np.random.randn(3)
+print(f"\n randn arrays in 1-D array format: \n {randn_array}")
+
+randn_array = np.random.randn(5,2)  # 5 by 2 array, no tuple, each dimension as a separate argument
+print(f"\n randn arrays in 2-D array foramt: \n {randn_array}")
+
+randint_array = np.random.randint(1,100)
+print(f"\n randint in 1-D array format: \n {randint_array} \n")
+# returns one random int, 1 inclusive, 100 exclusive.
+
+randint_array = np.random.randint(1,100,10)
+print(f"\n The 10 random integers between 1- 100 numbers in array format are given below. \n {randint_array}. ")
+
+randint_array = np.random.randint(1,100,(5,2))
+print(f"\n The 5 by 2 array of random integer between 1 - 100 numbers are given below. \n {randint_array}.")
+
+random_seed = np.random.seed(56)
+random_randint = np.random.randint(90, 100, 10)
+print(f" \n Sample Output will generate: {random_randint}")
+print(f" \n See! Same random numbers!!, by using random.seed: {random_randint}")
